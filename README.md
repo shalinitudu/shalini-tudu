@@ -1,18 +1,5 @@
-# Shalini Tudu Performing Arts Portfolio — Step 1
+# Shalini Tudu Portfolio — Step 2
 
-This package is the foundation for a GitHub Pages portfolio website.
+Step 2 includes the Step 1 foundation plus the uploaded photograph integrated into the redesigned responsive hero section, Dance + Acting identity, role tags, calls to action, artistic portrait treatment and highlights dashboard.
 
-## Included
-- `index.html` — semantic website structure and placeholder sections
-- `style.css` — responsive burgundy, gold and black/cream visual system
-- `script.js` — mobile navigation, reveal effects and active navigation
-- `assets/images/`, `assets/icons/`, `assets/logo/` — organized asset folders
-
-## Run locally
-Open `index.html` in a browser.
-
-## GitHub Pages
-Upload the contents of this folder to the root of a GitHub repository, commit, then enable Pages from the repository Settings → Pages.
-
-## Next step
-Step 2 will build the full hero section and Dance + Acting identity, including real image handling and stronger calls to action.
+Open `index.html` locally or upload the project contents to the root of a GitHub Pages repository.
