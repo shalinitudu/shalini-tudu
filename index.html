@@ -1,116 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shalini Tudu | Actor • Theatre Artist • Choreographer</title>
-<style>
-body{margin:0;font-family:Arial,sans-serif;background:#faf7f2;color:#222}
-header{background:linear-gradient(135deg,#4b1d3f,#9c4f74);color:#fff;padding:60px 20px;text-align:center}
-nav{position:sticky;top:0;background:#222;padding:10px;text-align:center}
-nav a{color:#fff;text-decoration:none;margin:0 12px}
-.container{max-width:1200px;margin:auto;padding:30px 20px}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:15px}
-.card{background:#fff;padding:20px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.12);text-align:center}
-table{width:100%;border-collapse:collapse;margin:20px 0;background:#fff}
-th,td{border:1px solid #ddd;padding:10px}
-th{background:#4b1d3f;color:#fff}
-section{margin-bottom:60px}
-footer{background:#222;color:#fff;padding:30px;text-align:center}
-.badge{display:inline-block;background:#fff;color:#4b1d3f;padding:8px 16px;border-radius:30px;font-weight:bold}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Official performing arts portfolio of Shalini Tudu — actor, theatre artist, choreographer, dance artist, educator and judge.">
+  <title>Shalini Tudu | Performing Arts Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
-
-<header>
-<h1>Shalini Tudu</h1>
-<p class="badge">Actor • Theatre Artist • Choreographer • Dance Artist • Performing Arts Educator • Judge</p>
-<p>Bengaluru, Karnataka</p>
+<header class="site-header" id="top">
+  <a class="brand" href="#home" aria-label="Shalini Tudu home">
+    <span class="brand-mark">ST</span>
+    <span><strong>Shalini Tudu</strong><small>Performing Arts Portfolio</small></span>
+  </a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+  <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#highlights">Highlights</a>
+    <a href="#acting">Acting</a><a href="#dance">Dance</a><a href="#choreography">Choreography</a>
+    <a href="#judging">Judging</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+  </nav>
 </header>
 
-<nav>
-<a href="#about">About</a>
-<a href="#dashboard">Dashboard</a>
-<a href="#training">Training</a>
-<a href="#performances">Performances</a>
-<a href="#acting">Acting</a>
-<a href="#judging">Judging</a>
-</nav>
-
-<div class="container">
-
-<section id="about">
-<h2>Professional Biography</h2>
-<p>Shalini Tudu is a Bengaluru-based performing arts professional with experience across Bharatanatyam, theatre, choreography, dance education, judging and creative direction. She has trained in Bharatanatyam, Indian Contemporary, Belly Dance, Hip-Hop and Freestyle, has performed in theatre productions and dance festivals, choreographed schools, universities, corporate events and weddings, and has served as a judge for multiple cultural competitions.</p>
+<main>
+<section id="home" class="hero">
+  <div class="hero-copy reveal">
+    <p class="eyebrow">Actor • Theatre Artist • Choreographer • Dance Artist</p>
+    <h1>Shalini <em>Tudu</em></h1>
+    <p class="lead">Performing Arts Educator, Creative Director and Judge based in Bengaluru.</p>
+    <div class="actions"><a class="btn primary" href="#about">Explore profile</a><a class="btn ghost" href="#contact">Contact</a></div>
+  </div>
+  <div class="portrait-placeholder reveal" aria-label="Profile photograph placeholder">
+    <span>Profile photograph</span><small>Add image later in assets/images/</small>
+  </div>
 </section>
 
-<section id="dashboard">
-<h2>Career Highlights</h2>
-<div class="cards">
-<div class="card"><h3>35+</h3><p>Dance Performances</p></div>
-<div class="card"><h3>15+</h3><p>Choreography Projects</p></div>
-<div class="card"><h3>12+</h3><p>Judging Assignments</p></div>
-<div class="card"><h3>8+</h3><p>Theatre Productions</p></div>
-<div class="card"><h3>12+</h3><p>Years Experience</p></div>
-<div class="card"><h3>FTII</h3><p>Acting Entrance Qualified</p></div>
-</div>
-</section>
+<section id="about" class="section reveal"><p class="eyebrow">Professional Profile</p><h2>A multidisciplinary performing artist</h2><p class="intro">Shalini Tudu’s portfolio brings together acting, theatre, choreography, dance performance, education, creative direction and judging. The complete biography and verified profile content will be added in the next development steps.</p></section>
 
-<section id="training">
-<h2>Professional Training</h2>
-<table>
-<tr><th>Discipline</th><th>Institute / Guru</th></tr>
-<tr><td>Bharatanatyam</td><td>Ravi Bharti Institute, Prayag Sangeet Samiti</td></tr>
-<tr><td>Indian Contemporary</td><td>Guru Tejaswini Balaji & Vivek Bhadouria</td></tr>
-<tr><td>Belly Dance</td><td>Nritya Kosh</td></tr>
-<tr><td>Hip-Hop & Freestyle</td><td>The Royal Dance Space</td></tr>
-<tr><td>Theatre</td><td>Proscenium Theatre Course</td></tr>
-</table>
-</section>
+<section id="highlights" class="section alt reveal"><p class="eyebrow">Career at a glance</p><h2>Highlights dashboard</h2><div class="card-grid"><article class="card"><strong>35+</strong><span>Dance performances</span></article><article class="card"><strong>15+</strong><span>Choreography projects</span></article><article class="card"><strong>12+</strong><span>Judging assignments</span></article><article class="card"><strong>8+</strong><span>Theatre productions</span></article><article class="card"><strong>12+</strong><span>Years of experience</span></article><article class="card"><strong>FTII</strong><span>Acting entrance qualified</span></article></div></section>
 
-<section id="performances">
-<h2>Selected Dance Performances</h2>
-<table>
-<tr><th>Year</th><th>Event</th><th>Role</th></tr>
-<tr><td>2017</td><td>Chemoz</td><td>Performer</td></tr>
-<tr><td>2019</td><td>Green Army</td><td>Performer & Choreographer</td></tr>
-<tr><td>2023</td><td>Parindey</td><td>Bharatanatyam Performer</td></tr>
-<tr><td>2025</td><td>Leela Palace</td><td>Bharatanatyam Performer</td></tr>
-<tr><td>2026</td><td>Chidambaram Shivaratri</td><td>Performer</td></tr>
-</table>
-</section>
+<section id="acting" class="section placeholder reveal"><p class="eyebrow">Acting & Theatre</p><h2>Stage, character and storytelling</h2><p>Full acting and theatre portfolio will be developed in Step 5.</p></section>
+<section id="dance" class="section placeholder reveal"><p class="eyebrow">Dance</p><h2>Performance across forms and stages</h2><p>Complete dance performance records will be developed in Step 6.</p></section>
+<section id="choreography" class="section placeholder reveal"><p class="eyebrow">Choreography</p><h2>Creative direction and production</h2><p>Complete choreography records will be developed in Step 7.</p></section>
+<section id="judging" class="section placeholder reveal"><p class="eyebrow">Judging</p><h2>Multidisciplinary performance evaluation</h2><p>The judging profile and complete assignments will be developed in Step 8.</p></section>
+<section id="experience" class="section placeholder reveal"><p class="eyebrow">Experience</p><h2>Training, teaching and collaborations</h2><p>Training, teaching, clients and complete data tables will be added in later steps.</p></section>
+<section id="contact" class="section contact reveal"><p class="eyebrow">Contact</p><h2>Collaborate with Shalini</h2><p>Contact and social links will be added when the verified details are provided.</p></section>
+</main>
 
-<section id="acting">
-<h2>Acting & Theatre</h2>
-<table>
-<tr><th>Production</th><th>Role</th></tr>
-<tr><td>Chandalika</td><td>Actor</td></tr>
-<tr><td>Biogala – Draupadi</td><td>Lead Actor</td></tr>
-<tr><td>Dad & Disco</td><td>Lead Actor</td></tr>
-<tr><td>Orange Candy</td><td>Lead Actor</td></tr>
-<tr><td>Behind Closed Doors</td><td>Lead Actor</td></tr>
-<tr><td>Manzil</td><td>Lead Actor</td></tr>
-<tr><td>Before My Stop</td><td>Monologue Artist</td></tr>
-<tr><td>Diapers and Deadlines</td><td>Actor</td></tr>
-</table>
-</section>
-
-<section id="judging">
-<h2>Judging Experience</h2>
-<table>
-<tr><th>Institution</th><th>Role</th></tr>
-<tr><td>Christ University</td><td>Dance Judge</td></tr>
-<tr><td>St. Joseph's University</td><td>Dance Judge</td></tr>
-<tr><td>UST</td><td>Judge</td></tr>
-<tr><td>EuroSchool</td><td>Judge</td></tr>
-</table>
-</section>
-
-</div>
-
-<footer>
-<p>© Shalini Tudu | Performing Arts Portfolio</p>
-</footer>
-
+<footer><p>© 2026 Shalini Tudu. Performing Arts Portfolio.</p><a href="#top">Back to top ↑</a></footer>
 </body>
 </html>
