@@ -20,10 +20,6 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:28px clamp(20
 .table-wrapper{width:100%;overflow-x:auto;margin-top:40px;border:1px solid var(--line);border-radius:18px;background:white;box-shadow:0 10px 30px rgba(32,13,23,.06)}
 table{width:100%;min-width:780px;border-collapse:collapse}thead{background:var(--wine);color:white}th{padding:18px 20px;text-align:left;font-size:13px;letter-spacing:.05em;text-transform:uppercase}td{padding:17px 20px;border-bottom:1px solid var(--line);vertical-align:top}tbody tr:last-child td{border-bottom:none}tbody tr:hover{background:var(--cream)}
 
-/* =========================
-   SOCIAL MEDIA LINKS
-========================= */
-
 .social-links{
   display:flex;
   align-items:center;
