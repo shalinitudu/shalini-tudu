@@ -20,44 +20,99 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:28px clamp(20
 .table-wrapper{width:100%;overflow-x:auto;margin-top:40px;border:1px solid var(--line);border-radius:18px;background:white;box-shadow:0 10px 30px rgba(32,13,23,.06)}
 table{width:100%;min-width:780px;border-collapse:collapse}thead{background:var(--wine);color:white}th{padding:18px 20px;text-align:left;font-size:13px;letter-spacing:.05em;text-transform:uppercase}td{padding:17px 20px;border-bottom:1px solid var(--line);vertical-align:top}tbody tr:last-child td{border-bottom:none}tbody tr:hover{background:var(--cream)}
 
-.social-links{
+.contact .social-links{
   display:flex;
   align-items:center;
-  gap:14px;
+  gap:12px;
   flex-wrap:wrap;
-  margin-top:32px;
+  margin-top:24px;
 }
 
-.social-link{
+.contact .social-link{
   display:inline-flex;
   align-items:center;
-  gap:10px;
+  justify-content:center;
+  gap:8px;
 
-  padding:11px 18px;
+  width:auto;
+  height:44px;
+  padding:0 16px;
 
   border:1px solid rgba(255,255,255,.35);
   border-radius:999px;
 
-  color:white;
+  color:#ffffff;
   text-decoration:none;
+  font-size:14px;
   font-weight:600;
+  line-height:1;
+
+  overflow:hidden;
 
   transition:
     transform .25s ease,
     background .25s ease,
-    border-color .25s ease;
+    border-color .25s ease,
+    color .25s ease;
 }
 
-.social-link svg{
-  width:22px;
-  height:22px;
+.contact .social-link svg{
+  display:block !important;
+
+  width:20px !important;
+  height:20px !important;
+
+  min-width:20px !important;
+  max-width:20px !important;
+
+  min-height:20px !important;
+  max-height:20px !important;
+
+  flex:0 0 20px !important;
+
   fill:currentColor;
-  flex-shrink:0;
 }
 
-.social-link:hover{
-  transform:translateY(-3px);
+.contact .social-link span{
+  display:inline-block;
+  font-size:14px;
+  line-height:1;
+}
+
+.contact .social-link:hover{
+  transform:translateY(-2px);
   background:var(--gold);
   border-color:var(--gold);
   color:var(--ink);
+}
+
+
+/* MOBILE */
+
+@media(max-width:560px){
+
+  .contact .social-links{
+    gap:10px;
+    margin-top:20px;
+  }
+
+  .contact .social-link{
+    height:40px;
+    padding:0 14px;
+    font-size:13px;
+  }
+
+  .contact .social-link svg{
+    width:18px !important;
+    height:18px !important;
+
+    min-width:18px !important;
+    max-width:18px !important;
+
+    min-height:18px !important;
+    max-height:18px !important;
+
+    flex-basis:18px !important;
+  }
+
 }
